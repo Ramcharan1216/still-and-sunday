@@ -1,6 +1,8 @@
 # Still & Sunday
 
 A polished, responsive storefront concept for thoughtful home, object, and wellness goods. The site pairs a warm editorial look with simple shopping interactions.
+## 
+see it here -> https://ramcharan1216.github.io/still-and-sunday/#story
 
 ## Features
 
