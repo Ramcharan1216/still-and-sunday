@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f6f0">
+  <title>Still &amp; Sunday — Good things for slower days</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">A little something for your first order — <strong>take 10% off with STILLANDSUNDAY</strong><span aria-hidden="true"> ↗</span></div>
+  <header class="site-header">
+    <button class="icon-button menu-button" aria-label="Open menu" id="menuToggle"><span></span><span></span></button>
+    <a class="wordmark" href="#top" aria-label="Still and Sunday home">still &amp; sunday<span>.</span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a class="active" href="#shop">Shop all</a><a href="#shop" data-category="Home">Home</a><a href="#shop" data-category="Objects">Objects</a><a href="#shop" data-category="Wellness">Wellness</a><a href="#story">Our story</a>
+    </nav>
+    <div class="header-actions"><button class="icon-button search-button" aria-label="Search products" id="searchToggle"><svg viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.7"></circle><path d="m16 16 4.4 4.4"></path></svg></button><button class="icon-button bag-button" aria-label="Open shopping bag" id="bagToggle"><svg viewBox="0 0 24 24"><path d="M5 8h14l1 12H4L5 8Z"></path><path d="M9 9V6a3 3 0 0 1 6 0v3"></path></svg><span class="bag-count" id="bagCount">0</span></button></div>
+  </header>
+  <div class="mobile-menu" id="mobileMenu"><a href="#shop">Shop all</a><a href="#shop" data-category="Home">Home</a><a href="#shop" data-category="Objects">Objects</a><a href="#shop" data-category="Wellness">Wellness</a><a href="#story">Our story</a></div>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy"><div class="eyebrow"><span class="sun-mark">✳</span> The art of everyday</div><h1>Make room<br>for <em>lovely.</em></h1><p>Thoughtful things for your home, your rituals, and all the little moments in between.</p><a class="button button-dark" href="#shop">Find your everyday <span>↗</span></a><div class="hero-note"><span class="note-line"></span> GOOD THINGS, MADE TO LAST</div></div>
+      <div class="hero-image-wrap"><img class="hero-image" src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1600&q=85" alt="Sunlit, thoughtfully styled living room with warm wood and natural textures"><div class="hero-sticker"><span>LIVE</span><b>slowly</b><span>✳</span></div><div class="image-caption">A softer start to the day <span>01 — 04</span></div></div>
+      <div class="hero-side-label">OBJECTS FOR A LIFE WELL LIVED</div>
+    </section>
+    <section class="trust-strip" aria-label="Our promise"><div><span class="trust-icon">✳</span> Thoughtfully sourced</div><span class="strip-divider"></span><div><span class="trust-icon">↺</span> Made to be kept</div><span class="strip-divider"></span><div><span class="trust-icon">♡</span> A little joy, daily</div><span class="strip-divider"></span><div class="trust-last">Free shipping on orders over $75</div></section>
+    <section class="shop-section" id="shop"><div class="section-heading"><div><div class="eyebrow">A FEW GOOD THINGS</div><h2>Find your <em>favourite.</em></h2></div><a class="text-link" href="#shop" id="viewAll">View everything <span>↗</span></a></div>
+      <div class="shop-toolbar"><div class="category-tabs" role="tablist" aria-label="Filter products"><button class="category-tab selected" data-filter="All">All the good stuff <span>20</span></button><button class="category-tab" data-filter="Home">Home <span>07</span></button><button class="category-tab" data-filter="Objects">Objects <span>07</span></button><button class="category-tab" data-filter="Wellness">Wellness <span>06</span></button></div><button class="sort-button" id="sortButton">Sort: <strong>Featured</strong><span>⌄</span></button></div>
+      <div class="product-grid" id="productGrid"></div>
+      <div class="shop-bottom"><span>THE LITTLE THINGS MAKE A LIFE</span><button class="button button-outline" id="loadMore">A little more, please <span>↓</span></button><span>01 — 20</span></div>
+    </section>
+    <section class="story" id="story"><div class="story-image"><img src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=1200&q=85" alt="A welcoming home detail with natural light and carefully chosen objects"><span class="story-image-note">A HOME SHOULD FEEL LIKE YOU.</span></div><div class="story-copy"><div class="eyebrow">A NOTE FROM US</div><h2>Less, but a little <em>lovelier.</em></h2><p>We believe the things we live with should earn their place. So we look for honest materials, useful shapes, and the kind of small details that make an ordinary Tuesday feel like something.</p><a class="text-link" href="#story">Get to know us <span>↗</span></a><div class="signature">With love, <span>still &amp; sunday.</span></div><span class="story-spark">✳</span></div></section>
+    <section class="newsletter"><div class="newsletter-mark">✳</div><div><div class="eyebrow">A GOOD NOTE, NOW AND THEN</div><h2>Stay for a <em>little while.</em></h2><p>New finds, slow Sunday inspiration, and 10% off your first order.</p></div><form id="newsletterForm"><label class="sr-only" for="email">Email address</label><input id="email" type="email" placeholder="Your email address" required><button aria-label="Subscribe">Count me in <span>↗</span></button><small id="newsletterMessage">No noise. Just nice things.</small></form></section>
+  </main>
+  <footer><a class="wordmark" href="#top">still &amp; sunday<span>.</span></a><span>Good things for slower days.</span><nav><a href="#shop">Shop</a><a href="#story">Our story</a><a href="mailto:hello@stillandsunday.example">Say hello</a></nav><span class="copyright">© STILL &amp; SUNDAY 2025</span></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="search-overlay" id="searchOverlay"><div class="search-panel"><button class="close-button" id="closeSearch" aria-label="Close search">×</button><div class="eyebrow">FIND SOMETHING LOVELY</div><label class="sr-only" for="searchInput">Search products</label><input id="searchInput" placeholder="What are you looking for?"><div class="search-results" id="searchResults">Try “vase”, “linen”, or “candle”.</div></div></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping bag"><div class="drawer-header"><div><div class="eyebrow">YOUR GOOD THINGS</div><h2>Your bag <span id="drawerCount">(0)</span></h2></div><button class="close-button" id="closeBag" aria-label="Close shopping bag">×</button></div><div class="cart-items" id="cartItems"></div><div class="cart-empty" id="cartEmpty"><span>✳</span><h3>Room for something lovely.</h3><p>Your bag is waiting for a little joy.</p><button class="text-link" id="continueShopping">Go find it <span>↗</span></button></div><div class="cart-footer" id="cartFooter"><div class="subtotal"><span>Subtotal</span><strong id="subtotal">$0</strong></div><p>Shipping and taxes calculated at checkout.</p><button class="button button-dark checkout-button" id="checkoutButton">Continue to checkout <span>↗</span></button><div class="secure-note">A GOOD CHOICE, GUARANTEED</div></div></aside><div class="drawer-scrim" id="drawerScrim"></div>
+  <script src="app.js"></script>
+</body>
+</html>
+
